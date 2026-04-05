@@ -2,5 +2,10 @@
   "home": "Главная",
   "about": "О нас",
   "menu": "Меню",
-  "contact": "Контакты"
+  "contact": "Контакты",
+  "banner": {
+    "title": "☕ Coffee Shop",
+    "subtitle": "Enjoy the best coffee in town",
+    "button": "Order Now"
+  }
 }

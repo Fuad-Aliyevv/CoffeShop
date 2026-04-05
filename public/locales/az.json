@@ -2,5 +2,10 @@
   "home": "Ana səhifə",
   "about": "Haqqımızda",
   "menu": "Menyu",
-  "contact": "Əlaqə"
-} 
+  "contact": "Əlaqə",
+   "banner": {
+    "title": "☕ Coffee Shop",
+    "subtitle": "Şəhərdə ən yaxşı qəhvədən zövq alın",
+    "button": "Sifariş et"
+  }
+}

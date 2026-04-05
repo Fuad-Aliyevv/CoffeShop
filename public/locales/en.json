@@ -2,5 +2,10 @@
   "home": "Home",
   "about": "About",
   "menu": "Menu",
-  "contact": "Contact"
+  "contact": "Contact",
+  "banner": {
+    "title": "☕ Coffee Shop",
+    "subtitle": "Enjoy the best coffee in town",
+    "button": "Order Now"
+  }
 }
