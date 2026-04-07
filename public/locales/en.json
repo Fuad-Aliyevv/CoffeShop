@@ -7,5 +7,19 @@
     "title": "☕ Coffee Shop",
     "subtitle": "Enjoy the best coffee in town",
     "button": "Order Now"
+  },
+  "footer": {
+    "title": "☕ CoffeeShop",
+    "desc": "Best coffee in town",
+    "links": "Links",
+    "home": "Home",
+    "menu": "Menu",
+    "contact": "Contact",
+    "contactTitle": "Contact",
+    "address": "📍 Baku, Azerbaijan",
+    "phone": "📞 +994 50 424 42 54",
+    "copy": "© 2026 CoffeeShop. All rights reserved.",
+    "aboutTitle": "About Us",
+    "aboutText": "We serve the best quality coffee for you."
   }
 }

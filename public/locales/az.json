@@ -7,5 +7,20 @@
     "title": "☕ Coffee Shop",
     "subtitle": "Şəhərdə ən yaxşı qəhvədən zövq alın",
     "button": "Sifariş et"
+  },
+"footer": {
+    "title": "☕ CoffeeShop",
+    "desc": "Şəhərdə ən yaxşı qəhvə",
+    "links": "Linklər",
+    "home": "Ana səhifə",
+    "menu": "Menyu",
+    "contact": "Əlaqə",
+    "contactTitle": "Əlaqə",
+    "address": "📍 Bakı, Azərbaycan",
+    "phone": "📞 +994 50 424 42 54",
+    "copy": "© 2026 CoffeeShop. Bütün hüquqlar qorunur.",
+    "aboutTitle": "Haqqımızda",
+    "aboutText": "Biz sizə ən keyfiyyətli qəhvə təqdim edirik."
+
   }
 }

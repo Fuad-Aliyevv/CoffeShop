@@ -4,8 +4,22 @@
   "menu": "Меню",
   "contact": "Контакты",
   "banner": {
-    "title": "☕ Coffee Shop",
-    "subtitle": "Enjoy the best coffee in town",
-    "button": "Order Now"
+    "title": "☕ Кофейня",
+    "subtitle": "Наслаждайтесь лучшим кофе в городе",
+    "button": "Заказать"
+  },
+  "footer": {
+    "title": "☕ Кофейня",
+    "desc": "Лучший кофе в городе",
+    "links": "Ссылки",
+    "home": "Главная",
+    "menu": "Меню",
+    "contact": "Контакты",
+    "contactTitle": "Контакты",
+    "address": "📍 Баку, Азербайджан",
+    "phone": "📞 +994 50 424 42 54",
+    "copy": "© 2026 Кофейня. Все права защищены.",
+    "aboutTitle": "О нас",
+    "aboutText": "Мы предлагаем вам лучший кофе."
   }
 }
