@@ -3,16 +3,16 @@
   "about": "Haqqımızda",
   "menu": "Menyu",
   "contact": "Əlaqə",
-   "banner": {
+  "banner": {
     "title": "☕ Coffee Shop",
     "subtitle": "Şəhərdə ən yaxşı qəhvədən zövq alın",
     "button": "Sifariş et"
   },
-"footer": {
+  "footer": {
     "title": "☕ CoffeeShop",
     "desc": "Şəhərdə ən yaxşı qəhvə",
-     "links": "Linklər",
-      "home": "Ana səhifə",
+    "links": "Linklər",
+    "home": "Ana səhifə",
     "menu": "Menyu",
     "contact": "Əlaqə",
     "contactTitle": "Əlaqə",
@@ -21,6 +21,18 @@
     "copy": "© 2026 CoffeeShop. Bütün hüquqlar qorunur.",
     "aboutTitle": "Haqqımızda",
     "aboutText": "Biz sizə ən keyfiyyətli qəhvə təqdim edirik."
-
+  },
+  "Home": {
+    "heroTitle": "☕ Ən yaxşı qəhvə",
+    "heroText": "Gününə mükəmməl qəhvə ilə başla",
+    "popular": "Populyar qəhvələr",
+    "about": "Haqqımızda",
+    "aboutText": "Biz sizə ən keyfiyyətli qəhvəni təqdim edirik.",
+    "why": "Niyə bizi seçməlisiniz?",
+    "fresh": "Təzə qəhvə",
+    "delivery": "Sürətli çatdırılma",
+    "quality": "Yüksək keyfiyyət",
+    "ctaTitle": "Bu gün qəhvəni sınayın!",
+    "ctaBtn": "Sifariş et"
   }
 }

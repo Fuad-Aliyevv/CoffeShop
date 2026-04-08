@@ -3,7 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+body {
+  background-color: #f5f5dc;
+  color: #2c2c2c;
+  font-family: Arial, sans-serif;
+}
 .navbar {
   background-color: #3e2723 !important; 
   padding: 10px 20px;

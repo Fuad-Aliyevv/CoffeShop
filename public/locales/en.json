@@ -11,7 +11,7 @@
   "footer": {
     "title": "☕ CoffeeShop",
     "desc": "Best coffee in town",
-     "links": "Links",
+    "links": "Links",
     "home": "Home",
     "menu": "Menu",
     "contact": "Contact",
@@ -21,5 +21,18 @@
     "copy": "© 2026 CoffeeShop. All rights reserved.",
     "aboutTitle": "About Us",
     "aboutText": "We serve the best quality coffee for you."
+  },
+  "Home": {
+    "heroTitle": "☕ Best Coffee",
+    "heroText": "Start your day with perfect coffee",
+    "popular": "Popular Coffees",
+    "about": "About Us",
+    "aboutText": "We provide the highest quality coffee.",
+    "why": "Why choose us?",
+    "fresh": "Fresh coffee",
+    "delivery": "Fast delivery",
+    "quality": "High quality",
+    "ctaTitle": "Try coffee today!",
+    "ctaBtn": "Order Now"
   }
 }
