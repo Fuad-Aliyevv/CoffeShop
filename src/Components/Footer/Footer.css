@@ -36,3 +36,23 @@
   padding: 10px;
   background: #2b1b17;
 }
+footer-link {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer-link:hover {
+  color: #f8c471;
+}
+
+
+.footer-link.active {
+  color: #f8c471;
+  font-weight: bold;
+}
+
+.footer-link {
+  color: white;
+  text-decoration: none;
+}
