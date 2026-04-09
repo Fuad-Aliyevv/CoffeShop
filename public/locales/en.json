@@ -23,16 +23,23 @@
     "aboutText": "We serve the best quality coffee for you."
   },
   "Home": {
-    "heroTitle": "☕ Best Coffee",
-    "heroText": "Start your day with perfect coffee",
-    "popular": "Popular Coffees",
+    "heroTitle": "☕ Premium Coffee Experience",
+    "heroText": "Discover the best coffee with us",
+    "ctaBtn": "Order Now",
+    "special": "20% discount today!",
+    "customers": "Customers",
+    "rating": "Rating",
+    "service": "Service",
     "about": "About Us",
     "aboutText": "We provide the highest quality coffee.",
     "why": "Why choose us?",
     "fresh": "Fresh coffee",
     "delivery": "Fast delivery",
     "quality": "High quality",
-    "ctaTitle": "Try coffee today!",
-    "ctaBtn": "Order Now"
+    "stepsTitle": "How it works?",
+    "step1": "Choose coffee",
+    "step2": "Place order",
+    "step3": "Enjoy",
+    "ctaTitle": "Order now!"
   }
 }
