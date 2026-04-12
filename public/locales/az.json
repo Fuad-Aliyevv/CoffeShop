@@ -46,5 +46,10 @@
     "review2": "Xidmət çox yaxşıdır!",
     "review3": "Ən yaxşı qəhvə buradadır!",
     "ctaTitle": "İndi sifariş et!"
+  },
+  "Error": {
+    "title": "Səhifə tapılmadı",
+    "text": "Axtardığınız səhifə mövcud deyil",
+    "btn": "Ana səhifəyə qayıt"
   }
 }
