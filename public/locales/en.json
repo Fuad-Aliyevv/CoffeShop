@@ -23,6 +23,7 @@
     "aboutText": "We serve the best quality coffee for you."
   },
   "Home": {
+    "pageTitle": "Home",
     "heroTitle": "☕ Premium Coffee Experience",
     "heroText": "Discover the best coffee with us",
     "ctaBtn": "Order Now",
@@ -31,15 +32,19 @@
     "rating": "Rating",
     "service": "Service",
     "about": "About Us",
-    "aboutText": "We provide the highest quality coffee.",
+    "aboutText": "We provide high-quality coffee experience.",
     "why": "Why choose us?",
     "fresh": "Fresh coffee",
     "delivery": "Fast delivery",
     "quality": "High quality",
     "stepsTitle": "How it works?",
-    "step1": "Choose coffee",
-    "step2": "Place order",
-    "step3": "Enjoy",
+    "step1": "Choose your coffee",
+    "step2": "Place your order",
+    "step3": "Enjoy your drink",
+    "reviewsTitle": "Reviews",
+    "review1": "Very delicious coffee!",
+    "review2": "Great service!",
+    "review3": "Best coffee in town!",
     "ctaTitle": "Order now!"
   }
 }

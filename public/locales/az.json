@@ -23,6 +23,7 @@
     "aboutText": "Biz sizə ən keyfiyyətli qəhvə təqdim edirik."
   },
   "Home": {
+    "pageTitle": "Ana səhifə",
     "heroTitle": "☕ Premium Qəhvə Təcrübəsi",
     "heroText": "Ən dadlı qəhvəni bizimlə kəşf et",
     "ctaBtn": "Sifariş et",
@@ -31,15 +32,19 @@
     "rating": "Reytinq",
     "service": "Xidmət",
     "about": "Haqqımızda",
-    "aboutText": "Biz sizə ən keyfiyyətli qəhvəni təqdim edirik.",
+    "aboutText": "Biz sizə yüksək keyfiyyətli qəhvə təqdim edirik.",
     "why": "Niyə bizi seçməlisiniz?",
     "fresh": "Təzə qəhvə",
     "delivery": "Sürətli çatdırılma",
     "quality": "Yüksək keyfiyyət",
     "stepsTitle": "Necə işləyir?",
-    "step1": "Qəhvə seç",
-    "step2": "Sifariş et",
+    "step1": "Qəhvəni seç",
+    "step2": "Sifariş ver",
     "step3": "Zövq al",
+    "reviewsTitle": "Rəylər",
+    "review1": "Çox dadlı qəhvədir!",
+    "review2": "Xidmət çox yaxşıdır!",
+    "review3": "Ən yaxşı qəhvə buradadır!",
     "ctaTitle": "İndi sifariş et!"
   }
 }
