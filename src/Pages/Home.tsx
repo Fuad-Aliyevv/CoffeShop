@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next";
 import "../Styles/Home.css";
 import { Helmet } from "react-helmet";
+import TestimonialsSlider from "../Components/TestimonialsSlider";
 
 export default function Home() {
   const { t } = useTranslation();
@@ -36,7 +37,6 @@ export default function Home() {
           </div>
         </div>
 
-
         <div className="special">
           🔥 {t("Home.special")}
         </div>
@@ -48,13 +48,12 @@ export default function Home() {
           <div><h3>24/7</h3><p>{t("Home.service")}</p></div>
         </div>
 
-
         <div className="about-section">
           <h2>{t("Home.about")}</h2>
           <p>{t("Home.aboutText")}</p>
         </div>
 
-   
+  
         <div className="why">
           <h2>{t("Home.why")}</h2>
 
@@ -87,31 +86,8 @@ export default function Home() {
           </div>
         </div>
 
-
-        <div className="testimonial-section">
-          <h2>⭐ {t("Home.reviewsTitle")}</h2>
-
-          <div className="testimonial-grid">
-            <div className="testimonial-card">
-              <img src="https://randomuser.me/api/portraits/men/32.jpg" />
-              <div className="rating">⭐⭐⭐⭐⭐</div>
-              <p>{t("Home.review1")}</p>
-            </div>
-
-            <div className="testimonial-card">
-              <img src="https://randomuser.me/api/portraits/women/44.jpg" />
-              <div className="rating">⭐⭐⭐⭐☆</div>
-              <p>{t("Home.review2")}</p>
-            </div>
-
-            <div className="testimonial-card">
-              <img src="https://randomuser.me/api/portraits/men/65.jpg" />
-              <div className="rating">⭐⭐⭐⭐⭐</div>
-              <p>{t("Home.review3")}</p>
-            </div>
-          </div>
-        </div>
-
+  
+        <TestimonialsSlider />
 
         <div className="cta">
           <h3>{t("Home.ctaTitle")}</h3>

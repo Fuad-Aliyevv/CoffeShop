@@ -158,7 +158,8 @@
   text-align: center;
 }
 
-.testimonial-grid {
+
+.testimonial-row {
   display: flex;
   justify-content: center;
   gap: 20px;
@@ -167,32 +168,27 @@
 }
 
 .testimonial-card {
-  width: 220px;
+  width: 240px;
   padding: 20px;
   border-radius: 12px;
   background: white;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
-  transition: 0.3s;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  text-align: center;
 }
 
-.testimonial-card:hover {
-  transform: translateY(-6px);
-}
 
 .testimonial-card img {
   width: 80px;
   height: 80px;
   border-radius: 50%;
-  border: 3px solid #f8c471;
-  object-fit: cover;
+  margin-bottom: 10px;
 }
+
 
 .rating {
-  margin-top: 10px;
   color: #f8c471;
-  font-size: 18px;
+  margin: 10px 0;
 }
-
 
 .cta {
   margin-top: 60px;

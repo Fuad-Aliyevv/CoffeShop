@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "Elvin",
+        "rating": 5,
+        "text": "Çox dadlı qəhvədir!",
+        "img": "https://randomuser.me/api/portraits/men/32.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Aysel",
+        "rating": 4,
+        "text": "Xidmət çox yaxşıdır!",
+        "img": "https://randomuser.me/api/portraits/women/44.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Əli",
+        "rating": 5,
+        "text": "Ən yaxşı qəhvə buradadır!",
+        "img": "https://randomuser.me/api/portraits/men/65.jpg"
+    }
+]
