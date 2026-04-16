@@ -17,8 +17,15 @@ export default function TestimonialsSlider() {
       .then((data) => setReviews(data));
   }, []);
 
+
   if (!reviews.length) {
-    return <p style={{ textAlign: "center" }}>Yüklənir...</p>;
+    return (
+      <div className="d-flex justify-content-center align-items-center" style={{ height: "150px" }}>
+        <div className="spinner-border text-warning" role="status">
+          <span className="visually-hidden">Yüklənir...</span>
+        </div>
+      </div>
+    );
   }
 
   return (
