@@ -2,9 +2,23 @@ import { useTranslation } from "react-i18next";
 import "../Styles/Home.css";
 import { Helmet } from "react-helmet";
 import TestimonialsSlider from "../Components/TestimonialsSlider";
+import { useNavigate } from "react-router-dom";
+import { useEffect, useState } from "react";
 
 export default function Home() {
   const { t } = useTranslation();
+  const navigate = useNavigate();
+  const [showTop, setShowTop] = useState(false);
+
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setShowTop(window.scrollY > 300);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   return (
     <>
@@ -19,6 +33,13 @@ export default function Home() {
         <div className="hero">
           <h1 className="hero-title">{t("Home.heroTitle")}</h1>
           <p>{t("Home.heroText")}</p>
+
+          <button
+            className="cta-btn mt-3"
+            onClick={() => navigate("/menu")}
+          >
+            {t("Home.ctaBtn")}
+          </button>
         </div>
 
 
@@ -33,6 +54,13 @@ export default function Home() {
 
             <div className="hero-overlay">
               <h2>{t("Home.heroTitle")}</h2>
+
+              <button
+                className="cta-btn"
+                onClick={() => navigate("/menu")}
+              >
+                {t("Home.ctaBtn")}
+              </button>
             </div>
           </div>
         </div>
@@ -41,20 +69,19 @@ export default function Home() {
           🔥 {t("Home.special")}
         </div>
 
-  
         <div className="stats">
           <div><h3>10K+</h3><p>{t("Home.customers")}</p></div>
           <div><h3>4.9⭐</h3><p>{t("Home.rating")}</p></div>
           <div><h3>24/7</h3><p>{t("Home.service")}</p></div>
         </div>
 
-        <div className="about-section">
+
+        <div className="about-section section light">
           <h2>{t("Home.about")}</h2>
           <p>{t("Home.aboutText")}</p>
         </div>
 
-  
-        <div className="why">
+        <div className="why section white">
           <h2>{t("Home.why")}</h2>
 
           <div className="why-grid">
@@ -65,7 +92,7 @@ export default function Home() {
         </div>
 
 
-        <div className="steps">
+        <div className="steps section light">
           <h2>{t("Home.stepsTitle")}</h2>
 
           <div className="steps-container">
@@ -86,15 +113,29 @@ export default function Home() {
           </div>
         </div>
 
-  
         <TestimonialsSlider />
 
         <div className="cta">
           <h3>{t("Home.ctaTitle")}</h3>
-          <button className="cta-btn">
+
+          <button
+            className="cta-btn"
+            onClick={() => navigate("/menu")}
+          >
             {t("Home.ctaBtn")}
           </button>
         </div>
+
+        {showTop && (
+          <button
+            className="top-btn"
+            onClick={() =>
+              window.scrollTo({ top: 0, behavior: "smooth" })
+            }
+          >
+            ↑
+          </button>
+        )}
 
       </div>
     </>
