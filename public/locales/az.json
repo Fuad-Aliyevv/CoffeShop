@@ -51,5 +51,10 @@
     "title": "Səhifə tapılmadı",
     "text": "Axtardığınız səhifə mövcud deyil",
     "btn": "Ana səhifəyə qayıt"
+  },
+   "FooterCTA": {
+    "title": "Ən yaxşı qəhvəni dadmağa hazırsan?",
+    "text": "Fərqi hiss etmək üçün menyuya bax",
+    "link": "Menyuya keç →"
   }
 }

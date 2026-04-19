@@ -1,0 +1,39 @@
+.footer-cta {
+  margin-top: 80px;
+  padding: 60px 20px;
+  border-radius: 16px;
+
+  background: linear-gradient(
+    rgba(0,0,0,0.6),
+    rgba(0,0,0,0.6)
+  ),
+  url("https://images.unsplash.com/photo-1495474472287-4d71bcdd2085");
+
+  background-size: cover;
+  background-position: center;
+
+  text-align: center;
+  color: white;
+}
+
+.footer-cta-content h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.footer-cta-content p {
+  margin-bottom: 20px;
+  color: #ddd;
+}
+
+.cta-link {
+  color: #f8c471;
+  text-decoration: none;
+  font-weight: 500;
+  border-bottom: 2px solid transparent;
+  transition: 0.3s;
+}
+
+.cta-link:hover {
+  border-bottom: 2px solid #f8c471;
+}
