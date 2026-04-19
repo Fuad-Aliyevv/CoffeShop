@@ -8,6 +8,11 @@
     "subtitle": "Enjoy the best coffee in town",
     "button": "Order Now"
   },
+  "FooterCTA": {
+    "title": "Ready to taste the best coffee?",
+    "text": "Explore our menu and feel the difference",
+    "link": "Go to menu →"
+  },
   "footer": {
     "title": "☕ CoffeeShop",
     "desc": "Best coffee in town",
@@ -47,14 +52,24 @@
     "review3": "Best coffee in town!",
     "ctaTitle": "Order now!"
   },
+  "About": {
+    "pageTitle": "About",
+    "title": "About Us",
+    "subtitle": "Our passion for coffee",
+    "storyTitle": "Our Story",
+    "text": "We strive to deliver the highest quality coffee every day.",
+    "valuesTitle": "Our Values",
+    "value1": "High quality",
+    "value2": "Natural products",
+    "value3": "Customer satisfaction",
+    "teamTitle": "Our Team",
+    "role1": "Barista",
+    "role2": "Manager",
+    "role3": "Chef"
+  },
   "Error": {
     "title": "Page not found",
     "text": "The page you are looking for does not exist",
     "btn": "Go Home"
-  },
-  "FooterCTA": {
-    "title": "Ready to taste the best coffee?",
-    "text": "Explore our menu and feel the difference",
-    "link": "Go to menu →"
   }
 }

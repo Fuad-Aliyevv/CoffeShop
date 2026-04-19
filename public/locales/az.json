@@ -22,6 +22,11 @@
     "aboutTitle": "Haqqımızda",
     "aboutText": "Biz sizə ən keyfiyyətli qəhvə təqdim edirik."
   },
+   "FooterCTA": {
+    "title": "Ən yaxşı qəhvəni dadmağa hazırsan?",
+    "text": "Fərqi hiss etmək üçün menyuya bax",
+    "link": "Menyuya keç →"
+  },
   "Home": {
     "pageTitle": "Ana səhifə",
     "heroTitle": "☕ Premium Qəhvə Təcrübəsi",
@@ -47,14 +52,23 @@
     "review3": "Ən yaxşı qəhvə buradadır!",
     "ctaTitle": "İndi sifariş et!"
   },
+   "About": {
+    "pageTitle": "Haqqımızda",
+    "title": "Bizim Haqqımızda",
+    "subtitle": "Qəhvəyə olan sevgimiz",
+    "storyTitle": "Bizim hekayəmiz",
+    "text": "Biz hər gün ən keyfiyyətli qəhvəni təqdim etməyə çalışırıq.",
+    "valuesTitle": "Dəyərlərimiz",
+    "value1": "Yüksək keyfiyyət",
+    "value2": "Təbii məhsullar",
+    "value3": "Müştəri məmnuniyyəti",
+    "teamTitle": "Komandamız",
+    "role1": "Barista",
+    "role2": "Menecer"
+   },
   "Error": {
     "title": "Səhifə tapılmadı",
     "text": "Axtardığınız səhifə mövcud deyil",
     "btn": "Ana səhifəyə qayıt"
-  },
-   "FooterCTA": {
-    "title": "Ən yaxşı qəhvəni dadmağa hazırsan?",
-    "text": "Fərqi hiss etmək üçün menyuya bax",
-    "link": "Menyuya keç →"
   }
 }
