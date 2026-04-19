@@ -42,29 +42,16 @@ export default function Home() {
           </button>
         </div>
 
+        <div className="hero-image-section">
+          <div className="hero-content">
+            <h2>{t("Home.heroTitle")}</h2>
+            <p>{t("Home.heroText")}</p>
+            <button className="cta-btn" onClick={() => navigate("/menu")}>
+              {t("Home.ctaBtn")}
+            </button>
 
-        <div className="hero-video-section">
-          <div className="hero-video-wrapper">
-            <video autoPlay loop muted className="hero-video">
-              <source
-                src="https://cdn.coverr.co/videos/coverr-coffee-beans-clip-5176/1080p.mp4"
-                type="video/mp4"
-              />
-            </video>
-
-            <div className="hero-overlay">
-              <h2>{t("Home.heroTitle")}</h2>
-
-              <button
-                className="cta-btn"
-                onClick={() => navigate("/menu")}
-              >
-                {t("Home.ctaBtn")}
-              </button>
-            </div>
           </div>
         </div>
-
         <div className="special">
           🔥 {t("Home.special")}
         </div>
