@@ -22,7 +22,7 @@
     "aboutTitle": "Haqqımızda",
     "aboutText": "Biz sizə ən keyfiyyətli qəhvə təqdim edirik."
   },
-   "FooterCTA": {
+  "FooterCTA": {
     "title": "Ən yaxşı qəhvəni dadmağa hazırsan?",
     "text": "Fərqi hiss etmək üçün menyuya bax",
     "link": "Menyuya keç →"
@@ -52,20 +52,28 @@
     "review3": "Ən yaxşı qəhvə buradadır!",
     "ctaTitle": "İndi sifariş et!"
   },
-   "About": {
+  "About": {
     "pageTitle": "Haqqımızda",
     "title": "Bizim Haqqımızda",
     "subtitle": "Qəhvəyə olan sevgimiz",
     "storyTitle": "Bizim hekayəmiz",
-    "text": "Biz hər gün ən keyfiyyətli qəhvəni təqdim etməyə çalışırıq.",
+    "text": "Biz hər gün ən yüksək keyfiyyətli qəhvəni təqdim etməyə çalışırıq. Məqsədimiz insanları qəhvə sevgisi ilə bir araya gətirmək və isti, rahat bir mühit yaratmaqdır.",
+    "stat1": "Müştəri",
+    "stat2": "İl təcrübə",
+    "stat3": "Reytinq",
+    "timelineTitle": "İnkişaf yolumuz",
+    "time1": "Kiçik bir qəhvəxana ilə başladıq",
+    "time2": "Böyüdük və daha çox müştəriyə çatdıq",
+    "time3": "Tanınmış qəhvə brendinə çevrildik",
     "valuesTitle": "Dəyərlərimiz",
     "value1": "Yüksək keyfiyyət",
     "value2": "Təbii məhsullar",
     "value3": "Müştəri məmnuniyyəti",
     "teamTitle": "Komandamız",
     "role1": "Barista",
-    "role2": "Menecer"
-   },
+    "role2": "Menecer",
+    "role3": "Şef"
+  },
   "Error": {
     "title": "Səhifə tapılmadı",
     "text": "Axtardığınız səhifə mövcud deyil",
