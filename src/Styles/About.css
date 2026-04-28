@@ -183,4 +183,15 @@
   height: 80px;
   border-radius: 50%;
 }
+.about-cta{
+  text-align: center;
+  margin-top: 80px;
+}
+.cta-btn{
+  background: #f8c471;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
 

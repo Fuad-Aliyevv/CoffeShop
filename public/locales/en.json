@@ -72,7 +72,10 @@
     "teamTitle": "Our Team",
     "role1": "Barista",
     "role2": "Manager",
-    "role3": "Chef"
+    "role3": "Chef",
+    "ctaTitle":"Get to know us",
+    "ctaBtn":"View Menu"
+
   },
   "Error": {
     "title": "Page not found",

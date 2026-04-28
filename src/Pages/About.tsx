@@ -110,7 +110,12 @@ export default function About() {
             </div>
           </div>
         </div>
-
+      <div className="about-cta">
+        <h3>{t("About.ctaTitle")}</h3>
+        <button className="cta-btn">
+          {t("About.ctaBtn")}
+        </button>
+        </div>
       </div>
     </>
   );

@@ -72,7 +72,9 @@
     "teamTitle": "Komandamız",
     "role1": "Barista",
     "role2": "Menecer",
-    "role3": "Şef"
+    "role3": "Şef",
+    "ctaTitle":"Bizimlə tanış ol",
+    "ctaBtn":"Menuya bax"
   },
   "Error": {
     "title": "Səhifə tapılmadı",
