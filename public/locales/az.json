@@ -80,6 +80,17 @@
     "guests": "Nəfər sayı",
     "bookNow": "Rezerv et"
   },
+  "Menu": {
+    "pageTitle": "Menu",
+    "title": "Bizim Menyumuz",
+    "all": "Hamısı",
+    "coffee": "Qəhvə",
+    "dessert": "Desert",
+    "espresso": "Espresso",
+    "cappuccino": "Kapuçino",
+    "latte": "Latte",
+    "cake": "Tort"
+  },
   "Error": {
     "title": "Səhifə tapılmadı",
     "text": "Axtardığınız səhifə mövcud deyil",
