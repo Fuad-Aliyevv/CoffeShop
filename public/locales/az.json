@@ -73,8 +73,12 @@
     "role1": "Barista",
     "role2": "Menecer",
     "role3": "Şef",
-    "ctaTitle":"Bizimlə tanış ol",
-    "ctaBtn":"Menuya bax"
+    "bookingTitle": "Rezervasiya et",
+    "bookingText": "Masa rezerv et və qəhvənin dadını çıxar",
+    "name": "Adınız",
+    "phone": "Telefon",
+    "guests": "Nəfər sayı",
+    "bookNow": "Rezerv et"
   },
   "Error": {
     "title": "Səhifə tapılmadı",

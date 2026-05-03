@@ -73,9 +73,12 @@
     "role1": "Barista",
     "role2": "Manager",
     "role3": "Chef",
-    "ctaTitle":"Get to know us",
-    "ctaBtn":"View Menu"
-
+    "bookingTitle": "Make a Reservation",
+    "bookingText": "Book a table and enjoy your coffee",
+    "name": "Your Name",
+    "phone": "Phone",
+    "guests": "Guests",
+    "bookNow": "Book Now"
   },
   "Error": {
     "title": "Page not found",

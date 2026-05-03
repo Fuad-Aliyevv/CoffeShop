@@ -13,7 +13,6 @@ export default function About() {
 
       <div className="about-page">
 
-        {/* 🔥 HERO SPLIT */}
         <div className="about-hero-split">
           <div className="hero-left">
             <h1>{t("About.title")}</h1>
@@ -110,12 +109,30 @@ export default function About() {
             </div>
           </div>
         </div>
-      <div className="about-cta">
-        <h3>{t("About.ctaTitle")}</h3>
-        <button className="cta-btn">
-          {t("About.ctaBtn")}
-        </button>
-        </div>
+    <div className="reservation-section">
+  <h2>{t("About.bookingTitle")}</h2>
+  <p>{t("About.bookingText")}</p>
+
+  <form className="reservation-form">
+    <input type="text" placeholder={t("About.name")} />
+    <input type="tel" placeholder={t("About.phone")} />
+
+    <input type="date" />
+    <input type="time" />
+
+    <select>
+      <option>{t("About.guests")}</option>
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4+</option>
+    </select>
+
+    <button type="submit" className="cta-btn">
+      {t("About.bookNow")}
+    </button>
+  </form>
+</div>
       </div>
     </>
   );
