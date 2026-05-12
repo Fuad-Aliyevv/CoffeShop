@@ -89,7 +89,9 @@
     "espresso": "Espresso",
     "cappuccino": "Cappuccino",
     "latte": "Latte",
-    "cake": "Cake"
+    "cake": "Cake"  
+    "orderBtn": "Order Now",
+
   },
   "Error": {
     "title": "Page not found",

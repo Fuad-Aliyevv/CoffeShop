@@ -1,93 +1,108 @@
-
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
-import "../Styles/Menu.css";
 import { Helmet } from "react-helmet";
-
-type Item = {
-  id: number;
-  name: string;
-  price: string;
-  category: string;
-  img: string;
-};
+import "../Styles/Menu.css"
+import menuData from "../data/menuData.ts"
 
 export default function Menu() {
   const { t } = useTranslation();
 
   const [category, setCategory] = useState("all");
 
-  const items: Item[] = [
-    {
-      id: 1,
-      name: t("Menu.espresso"),
-      price: "$3",
-      category: "coffee",
-      img: "https://images.unsplash.com/photo-1511920170033-f8396924c348"
-    },
-    {
-      id: 2,
-      name: t("Menu.cappuccino"),
-      price: "$4",
-      category: "coffee",
-      img: "https://images.unsplash.com/photo-1509042239860-f550ce710b93"
-    },
-    {
-      id: 3,
-      name: t("Menu.latte"),
-      price: "$4.5",
-      category: "coffee",
-      img: "https://images.unsplash.com/photo-1498804103079-a6351b050096"
-    },
-    {
-      id: 4,
-      name: t("Menu.cake"),
-      price: "$5",
-      category: "dessert",
-      img: "https://images.unsplash.com/photo-1551024601-bec78aea704b"
-    }
-  ];
-
   const filtered =
     category === "all"
-      ? items
-      : items.filter((i) => i.category === category);
+      ? menuData
+      : menuData.filter(
+          (item) => item.category === category
+        );
 
   return (
     <>
       <Helmet>
         <title>{t("Menu.pageTitle")} - ☕ CoffeeShop</title>
+
+        <meta
+          name="description"
+          content="CoffeeShop Menu"
+        />
       </Helmet>
 
       <div className="menu-page">
 
-        <h1>{t("Menu.title")}</h1>
+        <div className="menu-hero">
 
+          <h1>{t("Menu.title")}</h1>
 
-        <div className="menu-filter">
-          <button onClick={() => setCategory("all")}>
-            {t("Menu.all")}
-          </button>
-          <button onClick={() => setCategory("coffee")}>
-            {t("Menu.coffee")}
-          </button>
-          <button onClick={() => setCategory("dessert")}>
-            {t("Menu.dessert")}
-          </button>
+          <p>{t("Menu.subtitle")}</p>
+
         </div>
 
-      
+    
+        <div className="menu-filter">
+
+          <button
+            className={category === "all" ? "active" : ""}
+            onClick={() => setCategory("all")}
+          >
+            {t("Menu.all")}
+          </button>
+
+          <button
+            className={category === "coffee" ? "active" : ""}
+            onClick={() => setCategory("coffee")}
+          >
+            {t("Menu.coffee")}
+          </button>
+
+          <button
+            className={category === "dessert" ? "active" : ""}
+            onClick={() => setCategory("dessert")}
+          >
+            {t("Menu.dessert")}
+          </button>
+
+        </div>
+
         <div className="menu-grid">
+
           {filtered.map((item) => (
-            <div key={item.id} className="menu-card">
-              <img src={item.img} />
+
+            <div
+              key={item.id}
+              className="menu-card"
+            >
+
+              <div className="menu-image-wrapper">
+
+                <img
+                  src={item.img}
+                  alt={item.name}
+                />
+
+                <span className="menu-price">
+                  {item.price}
+                </span>
+
+              </div>
 
               <div className="menu-info">
+
                 <h3>{item.name}</h3>
-                <p>{item.price}</p>
+
+                <p className="menu-desc">
+                  {item.desc}
+                </p>
+
+                <button className="menu-btn">
+                  {t("Menu.orderBtn")}
+                </button>
+
               </div>
+
             </div>
+
           ))}
+
         </div>
 
       </div>
