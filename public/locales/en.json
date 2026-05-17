@@ -89,8 +89,8 @@
     "espresso": "Espresso",
     "cappuccino": "Cappuccino",
     "latte": "Latte",
-    "cake": "Cake"  
-    "orderBtn": "Order Now",
+    "cake": "Cake" , 
+    "orderBtn": "Order Now"
 
   },
   "Error": {
