@@ -83,6 +83,7 @@
   "Menu": {
     "pageTitle": "Menu",
     "title": "Bizim Menyumuz",
+    "subtitle": "Ən dadlı qəhvə və desertlərimizi kəşf et",
     "all": "Hamısı",
     "coffee": "Qəhvə",
     "dessert": "Desert",
@@ -90,7 +91,7 @@
     "cappuccino": "Kapuçino",
     "latte": "Latte",
     "cake": "Tort",
-    "orderBtn":  "Sifariş et"
+    "orderBtn": "Sifariş et"
   },
   "Error": {
     "title": "Səhifə tapılmadı",

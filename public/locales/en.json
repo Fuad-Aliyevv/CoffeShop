@@ -83,15 +83,14 @@
   "Menu": {
     "pageTitle": "Menu",
     "title": "Our Menu",
-    "all": "All",
+    "subtitle": "Discover our most delicious coffee and desserts",
     "coffee": "Coffee",
     "dessert": "Dessert",
     "espresso": "Espresso",
     "cappuccino": "Cappuccino",
     "latte": "Latte",
-    "cake": "Cake" , 
+    "cake": "Cake",
     "orderBtn": "Order Now"
-
   },
   "Error": {
     "title": "Page not found",

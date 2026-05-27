@@ -83,4 +83,9 @@ body {
 
 .lang-dropdown div:hover {
   background: #6f4e37;
-}
+};
+.nav-cart{
+  background:#8b4513;
+  color:white;
+  padding:10
+};
