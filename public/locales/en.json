@@ -92,6 +92,24 @@
     "cake": "Cake",
     "orderBtn": "Order Now"
   },
+  "Contact": {
+    "pageTitle": "Contact",
+    "title": "Contact Us",
+    "subtitle": "Write to us for questions, orders and reservations",
+    "address": "Address",
+    "phone": "Phone",
+    "hours": "Working Hours",
+    "addressText": "Baku, Azerbaijan",
+    "phoneText": "+994 50 424 42 54",
+    "hoursText": "08:00 - 23:00",
+    "formTitle": "Send Us a Message",
+    "formText": "Send your message and we will contact you",
+    "name": "Your Name",
+    "email": "Email",
+    "subject": "Subject",
+    "message": "Your Message",
+    "send": "Send"
+  },
   "Error": {
     "title": "Page not found",
     "text": "The page you are looking for does not exist",

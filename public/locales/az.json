@@ -93,6 +93,24 @@
     "cake": "Tort",
     "orderBtn": "Sifariş et"
   },
+  "Contact": {
+    "pageTitle": "Əlaqə",
+    "title": "Bizimlə əlaqə",
+    "subtitle": "Sualınız və rezervasiyanız üçün bizə yazın",
+    "address": "Ünvan",
+    "phone": "Telefon",
+    "hours": "İş saatı",
+    "addressText": "Bakı, Azərbaycan",
+    "phoneText": "+994 50 424 42 54",
+    "hoursText": "08:00 - 23:00",
+    "formTitle": "Bizə yazın",
+    "formText": "Sualınız və ya rezervasiyanız üçün mesaj göndərin",
+    "name": "Adınız",
+    "email": "Email",
+    "subject": "Mövzu",
+    "message": "Mesajınız",
+    "send": "Göndər"
+  },
   "Error": {
     "title": "Səhifə tapılmadı",
     "text": "Axtardığınız səhifə mövcud deyil",
