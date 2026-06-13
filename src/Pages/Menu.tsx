@@ -25,9 +25,9 @@ export default function Menu() {
   const [loading, setLoading] = useState(true);
   const [selectedItem, setSelectedItem] = useState<MenuItem | null>(null);
 
-  const { addToCart, cart } = useCart();
+  const { addToCart } = useCart();
 
-  /* LOADING */
+
   useEffect(() => {
 
     const timer = setTimeout(() => {
@@ -38,13 +38,12 @@ export default function Menu() {
 
   }, []);
 
-  /* FILTER */
+
   const filtered =
     category === "all"
       ? menuData
       : menuData.filter((item) => item.category === category);
 
-  /* ADD TO CART */
   const handleAddToCart = () => {
 
     if (!selectedItem) return;
@@ -62,8 +61,6 @@ export default function Menu() {
       </Helmet>
 
       <div className="menu-page">
-
-        {/* HERO */}
         <div className="menu-top">
 
           <div className="menu-hero">
@@ -71,13 +68,10 @@ export default function Menu() {
             <p>{t("Menu.subtitle")}</p>
           </div>
 
-          <div className="cart-box">
-            🛒 {cart.length}
-          </div>
+     
 
         </div>
 
-        {/* FILTER */}
         <div className="menu-filter">
 
           <button
@@ -103,7 +97,6 @@ export default function Menu() {
 
         </div>
 
-        {/* LOADING */}
         {loading ? (
 
           <div className="menu-grid">
@@ -151,7 +144,7 @@ export default function Menu() {
 
                   <button
                     className="menu-btn"
-                    onClick={() => setSelectedItem(item)}
+                    onClick={() => addToCart(item)}
                   >
                     {t("Menu.orderBtn")}
                   </button>
@@ -166,7 +159,6 @@ export default function Menu() {
 
         )}
 
-        {/* MODAL */}
         {selectedItem && (
 
           <div

@@ -18,7 +18,7 @@ export default function Header() {
 
         <div className="container">
 
-          {/* LOGO */}
+
           <Link
             className="navbar-brand"
             to="/"
@@ -110,7 +110,7 @@ export default function Header() {
 
             </ul>
 
-            {/* RIGHT */}
+       
             <div className="d-flex align-items-center gap-3 ms-3">
 
               {/* CART */}
@@ -122,7 +122,7 @@ export default function Header() {
                 🛒 {cart.length}
               </div>
 
-              {/* LANGUAGE */}
+         
               <LocaleSwitcher />
 
             </div>
