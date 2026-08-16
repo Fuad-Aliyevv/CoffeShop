@@ -73,3 +73,127 @@
   transition: 0.3s;
   width: 100%;
 }
+@media (max-width: 992px) {
+
+  .menu-page {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .menu-page h1 {
+    font-size: 30px;
+    margin-bottom: 25px;
+  }
+
+  .menu-filter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 25px;
+  }
+
+  .menu-filter button {
+    margin: 0;
+    padding: 8px 14px;
+  }
+
+  .menu-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+  }
+
+  .menu-card img {
+    height: 180px;
+  }
+}
+
+
+
+@media (max-width: 576px) {
+
+  .menu-page {
+    padding: 10px;
+  }
+
+  .menu-page h1 {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+
+  .menu-filter {
+    width: 100%;
+    gap: 8px;
+    margin-bottom: 25px;
+  }
+
+  .menu-filter button {
+    padding: 8px 12px;
+    font-size: 13px;
+    border-radius: 7px;
+  }
+
+  .menu-grid {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .menu-card {
+    width: 100%;
+  }
+
+  .menu-card img {
+    height: 210px;
+  }
+
+  .menu-info {
+    padding: 15px;
+  }
+
+  .menu-info h3 {
+    font-size: 19px;
+  }
+
+  .menu-info p {
+    font-size: 15px;
+  }
+
+  .menu-btn {
+    padding: 11px 18px;
+    font-size: 14px;
+  }
+}
+
+
+@media (max-width: 380px) {
+
+  .menu-page h1 {
+    font-size: 22px;
+  }
+
+  .menu-filter {
+    gap: 6px;
+  }
+
+  .menu-filter button {
+    padding: 7px 10px;
+    font-size: 12px;
+  }
+
+  .menu-card img {
+    height: 190px;
+  }
+
+  .menu-info {
+    padding: 12px;
+  }
+
+  .menu-info h3 {
+    font-size: 17px;
+  }
+
+  .menu-btn {
+    padding: 10px;
+    font-size: 13px;
+  }
+}
